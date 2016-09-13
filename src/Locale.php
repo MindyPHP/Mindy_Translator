@@ -136,6 +136,18 @@ class Locale
      */
     public function t($id, array $parameters = [], $domain = null, $locale = null)
     {
+        return $this->trans($id, $parameters, $domain, $locale);
+    }
+
+    /**
+     * @param $id
+     * @param array $parameters
+     * @param null $domain
+     * @param null $locale
+     * @return string
+     */
+    public function trans($id, array $parameters = [], $domain = null, $locale = null)
+    {
         return $this->getTranslator()->trans($id, $this->formatParameters($parameters), $domain, $locale);
     }
 
