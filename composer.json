@@ -1,0 +1,30 @@
+{
+  "name": "mindy/translator",
+  "homepage": "https://github.com/MindyPHP/Mindy_Translator",
+  "license": "BSD",
+  "autoload": {
+    "psr-4": {
+      "Mindy\\Translator\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "symfony/translation": "^3.1",
+    "symfony/finder": "^3.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "phpunit/php-code-coverage": "^4"
+  },
+  "authors": [
+    {
+      "name": "Maxim Falaleev",
+      "email": "max@studio107.ru",
+      "homepage": "http://studio107.ru",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/MindyPHP/Mindy/issues?state=open"
+  }
+}
